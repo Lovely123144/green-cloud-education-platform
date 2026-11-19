@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+pytest
+locust      # only for the real load test

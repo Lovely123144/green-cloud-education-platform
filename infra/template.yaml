@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Design B (serverless) of the carbon-aware online-education platform
+
+Globals:
+  Function:
+    Runtime: python3.12
+    Architectures: [arm64]          # Graviton: ~20 % cheaper per GB-second
+    MemorySize: 256                 # chosen by the memory sweep (Experiment 1)
+    Timeout: 10
+
+Resources:
+  ApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ../src/
+      Handler: lambda_api.handler
+      FunctionUrlConfig: {AuthType: NONE}   # use IAM/Cognito auth in production
+  CarbonSchedulerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ../src/
+      Handler: scheduler_lambda.handler
+      Environment:
+        Variables: {ZONE: JP-TK, CARBON_TOKEN: '{{resolve:ssm:/green-edu/carbon-token}}'}
+      Events:
+        NightlyReady:
+          Type: Schedule
+          Properties: {Schedule: 'cron(0 15 * * ? *)'}   # 23:00 UTC+8
+          # Input: {duration_h: 2, deadline_h: 9}  (set per job)
+
+Outputs:
+  ApiUrl:
+    Value: !GetAtt ApiFunctionUrl.FunctionUrl

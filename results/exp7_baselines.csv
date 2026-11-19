@@ -1,0 +1,19 @@
+scenario,design,cost_usd,gCO2,requests
+Campus - normal day,A: t3.medium on-demand,2.7287999999999997,77.05463804008807,300070
+Campus - normal day,A-RI: t3.medium 1-yr reserved,2.124,77.05463804008807,300070
+Campus - normal day,A-arm: t4g.medium on-demand,2.3448,77.05463804008807,300070
+Campus - normal day,A-arm-RI: t4g.medium 1-yr reserved,1.6728,77.05463804008807,300070
+Campus - normal day,B: Lambda arm64 256MB,0.4008607305493,0.701161701705578,300070
+Campus - normal day,B-fast: Lambda arm64 1769MB,0.46757091227562425,1.7824240652576226,300070
+Campus - exam day,A: t3.medium on-demand,2.7287999999999997,77.99938465853413,899966
+Campus - exam day,A-RI: t3.medium 1-yr reserved,2.124,77.99938465853413,899966
+Campus - exam day,A-arm: t4g.medium on-demand,2.3448,77.99938465853413,899966
+Campus - exam day,A-arm-RI: t4g.medium 1-yr reserved,1.6728,77.99938465853413,899966
+Campus - exam day,B: Lambda arm64 256MB,1.2069857884631001,2.1261189152709203,899966
+Campus - exam day,B-fast: Lambda arm64 1769MB,1.443748405968185,5.969928803101412,899966
+Large - exam day,A: t3.medium on-demand,2.7287999999999997,85.28181519051671,5399919
+Large - exam day,A-RI: t3.medium 1-yr reserved,2.124,85.28181519051671,5399919
+Large - exam day,A-arm: t4g.medium on-demand,2.3448,85.28181519051671,5399919
+Large - exam day,A-arm-RI: t4g.medium 1-yr reserved,1.6728,85.28181519051671,5399919
+Large - exam day,B: Lambda arm64 256MB,7.2422031848162005,12.759033231627168,5399919
+Large - exam day,B-fast: Lambda arm64 1769MB,8.662819197977939,35.82353826530921,5399919

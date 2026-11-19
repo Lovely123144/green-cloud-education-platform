@@ -1,0 +1,9 @@
+job,strategy,mean_gCO2,sd_gCO2,saving_pct,mean_delay_h,regions
+Nightly grading & reports,immediate,35.00076264841032,2.3524664145502014,0.0,0.0,"{""ap-northeast-1"": 60}"
+Nightly grading & reports,temporal,33.469866381325104,2.418789824609151,4.373894027576997,4.5,"{""ap-northeast-1"": 60}"
+Nightly grading & reports,spatial,2.2770455842611925,0.12449284298164731,93.49429723250728,0.0,"{""eu-north-1"": 60}"
+Nightly grading & reports,spatiotemporal,2.2587398237611813,0.1190452055403642,93.54659826572731,2.683333333333333,"{""eu-north-1"": 60}"
+Lecture-video transcoding,immediate,143.51710820943254,8.622699471813139,0.0,0.0,"{""ap-northeast-1"": 60}"
+Lecture-video transcoding,temporal,119.85224919097998,7.616412739611572,16.489225092188143,14.133333333333333,"{""ap-northeast-1"": 60}"
+Lecture-video transcoding,spatial,16.974563165868393,0.770516810618271,88.17244621380075,0.0,"{""eu-north-1"": 60}"
+Lecture-video transcoding,spatiotemporal,16.854302072043836,0.8164856592620647,88.2562418638978,6.283333333333333,"{""eu-north-1"": 60}"

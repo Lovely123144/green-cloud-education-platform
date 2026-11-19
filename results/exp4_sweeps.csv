@@ -1,0 +1,39 @@
+job,sweep,x,saving_pct
+Nightly grading & reports,window_h,0.0,0.0
+Nightly grading & reports,window_h,3.0,0.48555037814296265
+Nightly grading & reports,window_h,6.0,1.679208746189076
+Nightly grading & reports,window_h,9.0,4.373894027576997
+Nightly grading & reports,window_h,12.0,12.411503657377265
+Nightly grading & reports,window_h,18.0,18.572107647262158
+Nightly grading & reports,window_h,24.0,18.45425693917099
+Nightly grading & reports,window_h,36.0,19.290227455535103
+Nightly grading & reports,forecast_err,0.0,19.332854125387446
+Nightly grading & reports,forecast_err,0.03,18.93120755498242
+Nightly grading & reports,forecast_err,0.06,18.45425693917099
+Nightly grading & reports,forecast_err,0.1,17.01731740427207
+Nightly grading & reports,forecast_err,0.2,12.813011424497711
+Nightly grading & reports,forecast_err,0.4,8.375800262568156
+Nightly grading & reports,grid_variability,0.0,6.1976271620057695
+Nightly grading & reports,grid_variability,0.5,10.428772767014028
+Nightly grading & reports,grid_variability,1.0,18.45425693917099
+Nightly grading & reports,grid_variability,1.5,26.907662746427295
+Nightly grading & reports,grid_variability,2.0,35.54699863749455
+Lecture-video transcoding,window_h,0.0,0.0
+Lecture-video transcoding,window_h,3.0,0.0
+Lecture-video transcoding,window_h,6.0,0.0
+Lecture-video transcoding,window_h,9.0,0.5737775857379779
+Lecture-video transcoding,window_h,12.0,2.557260367847125
+Lecture-video transcoding,window_h,18.0,10.063570926303145
+Lecture-video transcoding,window_h,24.0,16.489225092188143
+Lecture-video transcoding,window_h,36.0,16.531322085176093
+Lecture-video transcoding,forecast_err,0.0,16.803670406350303
+Lecture-video transcoding,forecast_err,0.03,16.638901481376735
+Lecture-video transcoding,forecast_err,0.06,16.489225092188143
+Lecture-video transcoding,forecast_err,0.1,16.18937403608228
+Lecture-video transcoding,forecast_err,0.2,14.78893850342251
+Lecture-video transcoding,forecast_err,0.4,12.307351003977097
+Lecture-video transcoding,grid_variability,0.0,3.517573133734342
+Lecture-video transcoding,grid_variability,0.5,9.094098165012998
+Lecture-video transcoding,grid_variability,1.0,16.489225092188143
+Lecture-video transcoding,grid_variability,1.5,23.907010928676286
+Lecture-video transcoding,grid_variability,2.0,31.309303114343866
